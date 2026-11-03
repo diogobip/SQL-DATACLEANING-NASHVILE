@@ -1,6 +1,6 @@
 --Cleaning Data in SQL Queries
 
-select * from Nashvile
+select * from Nashvile --ProjectTable
 
 --Standartize Sale Date
 
