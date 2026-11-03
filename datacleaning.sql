@@ -16,7 +16,7 @@ Add Saledateconverted DATE;
 update Nashvile
 set Saledateconverted = convert(date,saledate)
 
---Populate Property Adress Data
+--Populate Property Address Data
 
 select *
 from Nashvile
@@ -122,7 +122,7 @@ Select *,
 from Nashvile
 --order by ParcelID
 )
---delete 
+--delete deleted the duplicates
 select * 
 from rownumCTE
 where row_num > 1
